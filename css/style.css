@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Reey Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Reey-Regular.ttf.woff');
+}
+.head{
+    background: url("../img/Header_Background.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    padding-top: 15px;
+}
+.logo img{
+    width: 80%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3.33px;
+}
+.nav-links a:hover{
+    color: rgb(204, 164, 89);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right-column{
+    padding-top: 60px;
+}
+.right-column img{
+    width: 100%;
+}
+.content .left-column{
+    max-width: 675px;
+    padding-left: 100px;
+}
+.content .left-column h2{
+    font-family: 'Reey Regular';
+    color: #fff;
+    font-size: 6em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 5px 5px rgba(84, 82, 79, 0.22);
+}
+.content .left-column h4{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 4.61px;
+    margin: 108px 0 66px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 36px;
+    background: #fff;
+    border-radius: 16px;
+    opacity: 0.9;
+    font-weight: 900;
+    font-size: 20;
+    text-decoration: none;
+    color: #2e3034;
+    text-transform:  uppercase;
+}
+.content .left-column p{
+    padding-top: 26px;
+    color: #fff;
+    letter-spacing: 0.96px;
+    font-style: italic;
+    padding-bottom: 190px;
+}
+
+
+.sec{
+    height: 100%;
+}
+.block-menu{
+    padding-top: 90px;
+}
+.title-menu{
+    font-family: 'Reey Regular';
+    color: #222328;
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+}
+.text-menu{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    color: #2f3135;
+}
+
+.blocks-pasta{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.blocks-pasta .pasta-one{
+    background: url('../img/min-pasta1.png') top no-repeat;
+    width: 360px;
+}
+.blocks-pasta .pasta-two{
+    background: url('../img/min-pasta2.png') top no-repeat;
+    width: 360px;
+}
+.blocks-pasta .pasta-three{
+    background: url('../img/min-pasta3.png') top no-repeat;
+    width: 360px;
+}
+.title-pasta{
+    text-align: center;
+    color: #343434;
+    font-size: 29px;
+    padding-top: 350px;
+}
+.text-pasta{
+    text-align: center;
+    color: #343434;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.block-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+.pasta-btn{
+    margin-top: 100px;
+    background-color: #343434;
+    color: #fff;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 15px 70px;
+}
+
+/* BLock 3 */
+
+.info{
+    height: 100%;
+    background-color: #27292c;
+}
+.title-info{
+    color: #fff;
+    
+}
+.blocks-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+    padding-bottom: 75px;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.blocks-info .left-info{
+    width: 491px;
+    padding-top: 54px;
+}
+.blocks-info .right-info{
+    width: 491px;
+    padding-top: 54px;
+}
+.info-btn{
+    padding: 15px 70px;
+    border-radius: 20px;
+}
+.block-btn{
+    padding-bottom: 70px;
+    margin-bottom: 0;
+
+}
+
+/* Block 4 */
+
+.sec-promo{
+    height: 100%;
+}
+.blocks-promo{
+    display: flex;
+    flex-direction: column;
+}
+.discount{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.discount-img{
+    padding-top: 55px;
+}
+.discount-img img{
+    width: 100%;
+}
+.discount-info{
+    padding-bottom: 100px;
+}
+.discount-info h3{
+    padding-top: 30px;
+    color: #27292c;
+    font-size: 40px;
+}
+.discount-info p{
+    color: #27292c;
+    font-size: 20px;
+    width: 505px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-dis{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.promo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+.promo-img img{
+    width: 100%;
+}
+.promo-img{
+    padding-top: 30px;
+}
+
+/* Block 5 */
+
+.sec-mail{
+    background: url('../img/listok.png') no-repeat center;
+    background-size: contain;
+    background-color: #27292c;
+    height: 100%;
+}
+.block-mail h2{
+    padding-top: 10%;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+.block-mail p{
+    padding-top: 60px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+.email{
+    /* width: 40%; */
+    padding: 1rem 40rem 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+.email-sub{
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #54524f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+.footers{
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 300px;
+    flex-wrap: wrap;
+}
+.left-footer{
+    max-width: 500px;
+}
+.title-footer{
+    color: #343434;
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.left-footer p{
+    /* color: #343434; */
+    padding-top: 10px;
+}
+.link-footer{
+    text-decoration: none;
+    color: #343434;
+    font-size: 18px;
+    
+}
+.footers li{
+    list-style: none;
+    padding-top: 10px;
+}
+.sci{
+    display: flex;
+    filter: invert(1);
+    padding-top: 10px;
+}
+.sci li{
+    padding-right: 10px;
+}
+.sci img{
+    width: 30px;
+}
+@media screen and (max-width: 1290px){
+    .nav-links{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-links{
+        width: 50%;
+    }
+}
